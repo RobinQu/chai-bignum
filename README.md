@@ -1,6 +1,8 @@
-# bignum plugin for chai
+# chai-bignum
 
-Usage
+chai assertions for bignum
+
+Usage:
 
 ```
 const chai = require('chai');

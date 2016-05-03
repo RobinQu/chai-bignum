@@ -1,0 +1,21 @@
+{
+  "name": "chai-bignum",
+  "version": "1.0.0",
+  "description": "chai assertions for bignum",
+  "main": "lib",
+  "scripts": {
+    "lint": "lint lib test",
+    "test": "npm run lint && mocha"
+  },
+  "author": "RobinQu",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.9.0",
+    "mocha": "^2.4.5",
+    "rcfiles": "^1.1.2"
+  },
+  "dependencies": {
+    "bignum": "^0.11.0"
+  }
+}
